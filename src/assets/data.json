@@ -1,0 +1,28 @@
+
+{
+  "projects": [
+    {
+      "date": "07/10/2022",
+      "title": "CatchUp",
+      "description": "This is a MERN stack chat app where users can login and signup and start chatting with each other",
+      "tech": "MERN Stack, chakraUI",
+      "imgSrc": "https://cdn.pixabay.com/photo/2012/04/15/21/17/speech-35342_1280.png"
+    },
+
+    {
+      "date": "11/10/2022",
+      "title": "Instagram Clone",
+      "description": "Basic Frontend reactjs clone",
+      "tech":"Reactjs",
+      
+      "imgSrc":"https://cdn.pixabay.com/photo/2018/11/13/22/01/instagram-3814080_1280.png"
+    } ,
+     {
+      "date": "11/10/2022",
+      "title": "HooBank",
+      "description": "This is the sample description about the project details. The more details the more details and evenually more details because I don't have anything to write",
+      "tech": "reactjs,tailwind",
+      "imgSrc": "https://hoooobank.netlify.app/assets/robot.352cd501.png"
+    } 
+  ]
+}

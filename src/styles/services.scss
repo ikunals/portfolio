@@ -1,0 +1,112 @@
+#services {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100vh;
+  padding: $p;
+  background-color: $color5;
+  color: $color4;
+  overflow: hidden;
+    // background-color: $color4;
+    //     color: $color6;
+
+  > #box1{
+      width: 30%;
+      height: 90vh;
+      padding: $p;
+      background-color: $color4;
+      color: $color6;
+      overflow: hidden;
+      font: 500 1.1rem $text2;  
+      .tech{
+        :hover{
+          transform: scale(1.1);
+        }
+      }
+      >button{
+        background: none!important;
+        border: none;
+      }
+  }
+  
+  > #education{
+    width: 60%;
+      height: 90vh;
+    margin-left:6em;
+    // background-color: $color4;
+      color: $color6;
+    display: flex;
+    flex-direction: column;
+    
+
+    > #box4{
+      background-color: $color4;
+        color: $color6;
+        height: 40vh;
+        width: 100%;
+        margin-top: 2em;
+    }
+  >#edu {
+    display: flex;
+    flex-direction: row;
+      // padding: $p;
+        // background-color: $color4;
+        // color: $color6;
+      overflow: hidden;
+
+      > #box2{
+        background-color: $color4;
+          color: $color6;
+          height: 45vh;
+          width: 50%;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          font: 500 1.1rem $text2;
+          font-size: 1.4em;
+      }
+      .box2{
+        display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+      }
+         
+    
+      > #box3{
+          background-color: $color4;
+            color: $color6;
+            height: 45vh;
+            font-size: 1.4em;
+            width: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font: 500 1.1rem $text2;
+              margin-left: 1em;
+      }      
+      .box3{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.4em;
+      }
+    }
+  }
+
+   #box4{
+    display: flex;
+      justify-content: center;
+      align-items: center;
+      font: 500 1.1rem $text2;
+      font-size: 1.4em;
+   }
+   .box4{
+    display: flex;
+    flex-direction: column;
+      justify-content: center;
+      align-items: center;
+   }
+}
